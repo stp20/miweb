@@ -1,8 +1,11 @@
  body {
-     background-image: url(img/fondo.webp);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
  }
 
  nav {
