@@ -96,4 +96,17 @@
     </footer>
 
 </body>
+    <script>
+        const cartCount = document.getElementById('cartCount');
+        const addCartButtons = document.querySelectorAll('.add-cart-btn');
+
+        addCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                let count = parseInt(cartCount.textContent);
+                count++;
+                cartCount.textContent = count;
+            });
+        });
+    </script>
+
 </style></html>
